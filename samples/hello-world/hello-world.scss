@@ -5,8 +5,12 @@ $children-background-color: #FFF79B;
 
 body {
   background: $body-background-color;
+  height: 100vh;
+  margin: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 h1 {
@@ -18,18 +22,16 @@ h1 {
 
 .parent {
   background: $parent-background-color;
-  width: 600px;
-  height: 300px;
   display: flex;
-  align-items: center;
+  flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .children {
   background: $children-background-color;
-  flex-grow: 1;
-  &:first-child {
-    flex-grow: 2;
-    order: 3;
-  }
+  height: 150px;
+  width: 150px;
+  margin: 10px;
 }
