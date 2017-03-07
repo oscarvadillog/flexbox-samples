@@ -5,4 +5,9 @@ Flexbox Samples is an open source project designed to learn and improve the oper
 
 ## Samples
 
-* Hello World
+* **Hello World:** It is the simplest example, it has been designed as proof of concept for scaffolding  the project. It consists of a parent container (Flexbox) centered horizontally and vertically. The childs are simple boxes.
+![](./samples/hello-world/screenshots/hello-world-02.jpg)
+
+
+## License
+MIT
