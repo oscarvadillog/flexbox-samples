@@ -1,23 +1,26 @@
 /* SASS Variables */
-$body-background-color: #E8B881;
 $parent-background-color: #81E882;
 $children-background-color: #FFF79B;
 
 body {
-  background: $body-background-color;
-}
-
-h1 {
-  position: fixed;
-  font-size: 1em;
-  left: 10px;
-  top: 5px;
+  overflow: hidden;
+  margin: 0;
 }
 
 .parent {
   background: $parent-background-color;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .children {
   background: $children-background-color;
+  flex-grow: 1;
+  overflow: hidden;
+  text-align: center;
+  video {
+    height: 100vh;
+    width: auto;
+    transform: translateX(-20%);
+  }
 }

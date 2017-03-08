@@ -1,15 +1,27 @@
 /* SASS Variables */
 body {
-  background: #E8B881; }
-
-h1 {
-  position: fixed;
-  font-size: 1em;
-  left: 10px;
-  top: 5px; }
+  overflow: hidden;
+  margin: 0; }
 
 .parent {
-  background: #81E882; }
+  background: #81E882;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap; }
 
 .children {
-  background: #FFF79B; }
+  background: #FFF79B;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  overflow: hidden;
+  text-align: center; }
+  .children video {
+    height: 100vh;
+    width: auto;
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%); }
