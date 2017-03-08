@@ -6,10 +6,14 @@ Flexbox Samples is an open source project designed to learn and improve the oper
 ## Samples
 
 * **Hello World:** It is the simplest example, it has been designed as proof of concept for scaffolding  the project. It consists of a parent container (Flexbox) centered horizontally and vertically. The childs are simple boxes.
-![](./samples/hello-world/screenshots/hello-world-02.jpg)
+
+  ![](./samples/hello-world/screenshots/hello-world-02.jpg)
+
 
 * **Dual Player:** This example is intended as a full screen player of two conventional video elements. For example, it can be useful for a video call.
-![](./samples/dual-player/screenshots/dual-player-01.jpg)
+
+  ![](./samples/dual-player/screenshots/dual-player-01.jpg)
+
 
 
 ## License
