@@ -9,7 +9,7 @@ Flexbox Samples is an open source project designed to learn and improve the oper
 ![](./samples/hello-world/screenshots/hello-world-02.jpg)
 
 * **Dual Player:** This example is intended as a full screen player of two conventional video elements. For example, it can be useful for a video call.
-![](./samples/hello-world/screenshots/dual-player-01.jpg)
+![](./samples/dual-player/screenshots/dual-player-01.jpg)
 
 
 ## License
