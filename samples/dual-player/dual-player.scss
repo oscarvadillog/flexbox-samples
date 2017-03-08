@@ -1,0 +1,23 @@
+/* SASS Variables */
+$body-background-color: #E8B881;
+$parent-background-color: #81E882;
+$children-background-color: #FFF79B;
+
+body {
+  background: $body-background-color;
+}
+
+h1 {
+  position: fixed;
+  font-size: 1em;
+  left: 10px;
+  top: 5px;
+}
+
+.parent {
+  background: $parent-background-color;
+}
+
+.children {
+  background: $children-background-color;
+}

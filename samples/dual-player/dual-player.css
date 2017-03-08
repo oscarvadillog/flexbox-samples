@@ -1,0 +1,15 @@
+/* SASS Variables */
+body {
+  background: #E8B881; }
+
+h1 {
+  position: fixed;
+  font-size: 1em;
+  left: 10px;
+  top: 5px; }
+
+.parent {
+  background: #81E882; }
+
+.children {
+  background: #FFF79B; }
