@@ -15,6 +15,9 @@ Flexbox Samples is an open source project designed to learn and improve the oper
   ![](./samples/dual-player/screenshots/dual-player-01.jpg)
 
 
+* **Sidebar:** This is a simple sidebar for navigation into a website. It is placed at right of the content and it is responsive for mobile devices.
+
+  ![](./samples/dual-player/screenshots/sidebar-01.jpg)
 
 ## License
 MIT
