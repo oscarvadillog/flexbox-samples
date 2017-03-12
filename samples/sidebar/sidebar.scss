@@ -1,0 +1,36 @@
+$sidebar-background-color: #D2B153;
+$sidebar-link-color: white;
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  padding: 8px;
+}
+.sidebar {
+  background: $sidebar-background-color;
+  padding: 8px;
+  a {
+    color: $sidebar-link-color;
+    display: block;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 4px;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row-reverse;
+    .content {
+      flex: 1;
+    }
+    .sidebar {
+      width: 170px;
+    }
+  }
+}

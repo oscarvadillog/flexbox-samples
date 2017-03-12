@@ -1,0 +1,36 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.content {
+  padding: 8px; }
+
+.sidebar {
+  background: #D2B153;
+  padding: 8px; }
+  .sidebar a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 4px; }
+    .sidebar a:hover {
+      font-weight: bold; }
+
+@media screen and (min-width: 600px) {
+  .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; }
+    .container .content {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1; }
+    .container .sidebar {
+      width: 170px; } }
