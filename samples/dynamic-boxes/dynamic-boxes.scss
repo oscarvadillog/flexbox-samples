@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+#container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.dynamic-box {
+  min-width: 33.33vw;
+  min-height: 33.33vh;
+  flex-grow: 1;
+}
