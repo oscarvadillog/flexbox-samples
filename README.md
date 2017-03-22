@@ -19,5 +19,13 @@ Flexbox Samples is an open source project designed to learn and improve the oper
 
   ![](./samples/sidebar/screenshots/sidebar-01.jpg)
 
+
+* **Dynamic Boxes:** This is a Flex proposal for dynamic designs based on boxes. For example, it can be useful for dynamic conferences.
+
+  ![](./samples/dynamic-boxes/screenshots/dynamic-boxes-01.jpg)
+
+  ![](./samples/dynamic-boxes/screenshots/dynamic-boxes-02.jpg)
+
+
 ## License
 MIT
